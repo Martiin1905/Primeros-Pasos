@@ -1,0 +1,278 @@
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/*HEADER CHICO*/
+header {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 0px;
+    background-color: #1f98f0ff;
+    position: fixed;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.miniheader{
+    display: inline-block;
+
+}
+
+#header .logogmail{
+    width: 28px;
+}
+#header .gmail{
+    display: inline-block;
+    text-align: center;
+}
+#header .logocelular{
+    width: 26px;
+    text-align: center;
+}
+#header .numerotelefono{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*  BARRA DE NAVEGACION  */
+#navbar {
+    width: 100%;
+    height: 120px;
+    background-color: #0084e4;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-style: none;
+    list-style: none;
+
+}
+
+#navbar .logo-compañia{
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#navbar ul li a {
+    margin-left: 120px;
+    color: white;
+    font-weight: 500;
+}
+a, li {
+    font-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linksprincipales {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTENIDO DE LA PAGINA */
+
+/*
+main .inicio-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Imagenes/inicio-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+*/
+main .imagen-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#banner {
+    position: relative;
+}
+#banner img {
+    position: absolute;
+}
+.contenidobanner .titulobanner {
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 650px;
+    font-size: 40px;
+}
+.botonbanner {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 350px;
+    width: 170px;
+    height: 60px;
+    background-color: #1F98F0;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+main {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+#post-banner {
+    display: inline-block;
+    margin-top: 900px;
+    text-align: center;
+}
+.titutlopostbanner {
+    font-size: 48px;
+    text-align: center;
+    color: #0084e4;
+    margin-bottom: 80px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.fotovieja {
+    width: 900px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+.textopostimg {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PIE DE PAGINA */
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0084e4;
+    margin-top: auto;
+    height: 170px;
+}
+.footerHorarios {
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+footer .footerRedes {
+    display: inline-block;
+    text-align: end;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+}
+footer .footerRedes img {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+}
+
+footer .footerHorarios div {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+footer .footerHorarios div .horarios{
+    margin-top: 12px;
+    width: 70px;
+}
+
+footer .footerHorarios div .contacto{
+    margin-top: 39px;
+    width: 50px;
+}
+
+footer .footerHorarios div .ubicacion{
+    margin-top: 20px;
+    width: 60px;
+}
+
+.footerhorarios11 {
+    width: 200px;
+    text-align: center;
+}
+
+.footercontacto11 {
+    width: 200px;
+    text-align: center;
+}
+
+.footerubicacion11 {
+    width: 200px;
+    text-align: center;
+}
+
+.tamañoletraubi {
+    font-size: 16px;
+}
+
+.tamañocontacto {
+    font-size: 18px;
+}
+
+.tamañogmail {
+    font-size: 12px;
+}
+
+.tamañohorario {
+    font-size: 15px;
+}
