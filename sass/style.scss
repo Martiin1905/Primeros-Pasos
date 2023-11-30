@@ -1,0 +1,421 @@
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/*HEADER CHICO*/
+header {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 0px;
+    background-color: #1f98f0ff;
+    position: fixed;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.miniheader{
+    display: inline-block;
+
+}
+
+#header .logogmail{
+    width: 28px;
+}
+#header .gmail{
+    display: inline-block;
+    text-align: center;
+}
+#header .logocelular{
+    width: 26px;
+    text-align: center;
+}
+#header .numerotelefono{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*  BARRA DE NAVEGACION  */
+/*
+#navbar {
+    width: 100%;
+    height: 120px;
+    background-color: #0084e4;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-style: none;
+    list-style: none;
+
+}
+
+#navbar .logo-compañia{
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#navbar ul li a {
+    margin-left: 120px;
+    color: white;
+    font-weight: 500;
+}
+a, li {
+    font-style: none;
+    text-decoration: none;
+}
+/*
+.linksprincipales {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+/**/
+#navbar {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    background-color: #0084e4;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+#navbar ul {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#navbar ul li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#navbar ul li a {
+    font-size: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+#navbar img {
+    display: flex;
+    width: 170px;
+    text-align: left;
+    align-items: left;
+    margin-top: 30px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a:hover {
+    color: grey;
+}
+.logo-compañia {
+    width: 200px;
+}
+#navbar a {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* CONTENIDO DE LA PAGINA */
+
+/*
+main .inicio-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Imagenes/inicio-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+*/
+main .imagen-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#banner {
+    position: relative;
+}
+#banner img {
+    position: absolute;
+}
+.contenidobanner .titulobanner {
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 650px;
+
+}
+
+h1 {
+    font-size: 75px;
+}
+
+
+.botonbanner {
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 400px;
+    width: 250px;
+    height: 60px;
+    background-color: #1F98F0;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.botonbanner a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.botonbanner a:hover {
+    color: grey;
+}
+
+
+main {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+#post-banner {
+    display: inline-block;
+    margin-top: 900px;
+    text-align: center;
+}
+.titutlopostbanner {
+    font-size: 48px;
+    text-align: center;
+    color: #0084e4;
+    margin-bottom: 80px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+.fotovieja {
+    width: 900px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+.textopostimg {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PIE DE PAGINA */
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0084e4;
+    margin-top: auto;
+    height: 170px;
+}
+.footerHorarios {
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+footer .footerRedes {
+    display: inline-block;
+    text-align: end;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+}
+footer .footerRedes img {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+}
+
+footer .footerHorarios div {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+footer .footerHorarios div .horarios{
+    margin-top: 12px;
+    width: 70px;
+}
+
+footer .footerHorarios div .contacto{
+    margin-top: 39px;
+    width: 50px;
+}
+
+footer .footerHorarios div .ubicacion{
+    margin-top: 20px;
+    width: 60px;
+}
+
+.footerhorarios11 {
+    width: 200px;
+    text-align: center;
+}
+
+.footercontacto11 {
+    width: 200px;
+    text-align: center;
+}
+
+.footerubicacion11 {
+    width: 200px;
+    text-align: center;
+}
+
+.tamañoletraubi {
+    font-size: 16px;
+}
+
+.tamañocontacto {
+    font-size: 18px;
+}
+
+.tamañogmail {
+    font-size: 12px;
+}
+
+.tamañohorario {
+    font-size: 15px;
+}
+
+.formulariocontacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactotelefonogmail, .formulario {
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.contactotelefonogmail {
+    float: left;
+}
+
+.formulario {
+    float: right;
+}
+
+#inputtext {
+    width: 550px;
+    height: 25px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+#inputcorreo {
+    width: 550px;
+    height: 25px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+#inputmensaje {
+    width: 550px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+#inputtelefono {
+    width: 550px;
+    height: 25px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+.formulariocontacto {
+    font-family: 'Sora', sans-serif;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.formbotonformulario {
+    padding: 10px;
+    margin-left: 100px;
+    width: 500px;
+}
+.botonformulario {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+    border: none;
+    border-radius: 15px;
+    background-color: #0084e4;
+    color: white;
+    width: 150px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.botonformulario:hover {
+    color: rgb(184, 184, 184);
+}
+
+#navbar ul li a:hover {
+    color: rgb(176, 176, 176);
+}
