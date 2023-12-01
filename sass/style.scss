@@ -6,7 +6,6 @@
     box-sizing: border-box
 }
 
-
 /*HEADER CHICO*/
 header {
     width: 100%;
@@ -244,21 +243,142 @@ main {
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     font-size: 40px;
     font-weight: 500;
 }
 
+#post-banner .listaservicios {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+#post-banner .listaservicios li {
+    text-decoration: none;
+}
+
+.titulobannerservicios {
+    z-index: 101;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 950px;
+}
+
+.titulobannernosotros {
+    
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 500px;
+}
+
+.titulobannernosotros h1 {
+    font-size: 90px;
+}
+
+.visionmisionvalores {
+    display: flex;
+    justify-content: center;
+    height: 540px;
+    margin-top: 160px;
+    background-color: #0084e4;
+    margin-bottom: 90px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 55px;
+    
+}
+
+.visionmisionvalores .divmision {
+    height: 400px;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.visionmisionvalores .divvalores {
+    height: 400px;
+    width: 250px;
+    justify-content: right;
+    margin-top: 70px;
+}
+
+.visionmisionvalores .divvision {
+    height: 400px;
+    width: 250px;
+    margin-top: 70px;
+}
+
+.visionmisionvalores div {
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.visionmisionvalores div h5 {
+    font-size: 45px;
+}
+
+.visionmisionvalores div h6 {
+    font-size: 23px;
+    margin: 15px;
+}
+
+.textopostimgnosotros {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 
+/* UBICACION */
+.sectionubicacion {
+    display: flex;
+}
+.sectionubicacion .maps {
+    width: 550px;
+    height: 550px;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 100px;
+}
 
+.sectionubicacion .maps iframe {
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
 
+.sectionubicacion .derechamaps {
+    width: 550px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+}
 
+.sectionubicacion .derechamaps h4 {
+    font-size: 35px;
+    font-weight: 1000;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
 
-
-
-
-
+.subtitulocambiar {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 90px;
+}
 
 
 
@@ -418,4 +538,10 @@ footer .footerHorarios div .ubicacion{
 
 #navbar ul li a:hover {
     color: rgb(176, 176, 176);
+}
+
+
+
+.listaservicios {
+    text-decoration: none;
 }
