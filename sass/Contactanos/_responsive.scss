@@ -1,0 +1,112 @@
+@media (max-width: 850px) {
+    #post-bannercontactanos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #post-bannercontactanos .contactotelefonogmail div h5 {
+        width: 800px;
+        margin-left: 0px;
+        margin-top: -200px;
+        font-size: 40px;
+    }
+    #post-bannercontactanos .contactotelefonogmail div img {
+        width: 120px;
+        margin-right: -290px;
+    }
+    #post-bannercontactanos .contactotelefonogmail div h3 {
+        font-size: 50px;
+        margin-right: -290px;
+    }
+    #post-bannercontactanos .contactotelefonogmail div h4 {
+        font-size: 35px;
+        margin-right: -290px;
+    }
+    #post-bannercontactanos .formulario {
+        height: 1500px;
+        
+    }
+    #post-bannercontactanos .formulario .formulariocontacto {
+        width: 1000px;
+        font-size: 45px;
+        text-align: center;
+        align-items: center;
+        margin-top: -100px;
+        margin-left: -80px;
+    }
+    #post-bannercontactanos .botonformulario {
+        width: 570px;
+        font-size: 40px;
+        margin-left: 0;
+    }
+    #post-bannercontactanos .formulario .formulariocontacto label input {
+        height: 50px;
+        width: 900px;
+    }
+    #post-bannercontactanos .formulario .formulariocontacto label textarea {
+        width: 900px;
+    }
+
+    #footer {
+        height: 300px;
+        margin-bottom: 0;
+    }
+    /*
+    #footer .footerHorarios .footerhorarios11 {
+        display: none;
+    }
+    #footer .footerHorarios .footercontacto11 {
+        display: none;
+    }
+    #footer .footerHorarios .footerubicacion11 {
+        display: none;
+    }
+    */
+    #footer {
+        height: 900px;
+    }
+    #footer .footerHorarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer .footerHorarios .footerRedes {
+        width: 1000px;
+    }
+    #footer .footerHorarios .footerhorarios11 h5 {
+        display: none;
+    }
+    #footer .footerHorarios .footerubicacion11 h5 {
+        display: none;
+    }
+    #footer .footerHorarios div img {
+        width: 120px;
+        margin-left: -90px;
+    }
+    #footer .footerHorarios div h6 {
+        width: 730px;
+        font-size: 35px;
+        margin-left: -290px;
+    }
+    #footer .footerHorarios div h5 {
+        width: 730px;
+        font-size: 35px;
+        margin-left: -300px;
+    }
+    #footer .footerHorarios .footerRedes img {
+        margin-left: 80px;
+        width: 150px;
+    }
+    #footer .footerHorarios .footerRedes {
+        margin-top: 20px;
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #post-bannercontactanos .formulario {
+        margin-left: 150px;
+    }
+
+}

@@ -1,0 +1,65 @@
+/*    RESPONSIVE INDEX   */
+@media (max-width: 1280px) {
+    .miniheader{
+        margin-right: 90px;
+    }
+    #navbar .linksprincipales {
+        margin-left: -140px;
+        width: 1150px;
+        justify-content: center;
+    }
+    #navbar .linksprincipales a {
+        font-size: 26px;
+        margin-left: 30px;
+    }
+    #navbar img {
+        width: 120px;
+    }
+    #banner .imagen-banner {
+        width: 1290px;
+    }
+    .contenidobanner {
+        margin-left: -100px;
+    }
+    #post-banner {
+        margin-top: 830px;
+        margin-left: 60px;
+    }
+    #post-banner h3 {
+        text-align: center;
+        justify-content: center;
+        width: 1000px;
+        margin-left: 75px;
+    }
+    #post-banner img {
+        width: 900px;
+        margin-left: 140px;
+    }
+    #post-banner .textopostimg {
+        width: 1000px;
+        margin-left: 80px;
+        font-size: 35px;
+    }
+
+    #footer {
+        width: 1300px;
+    }
+    #footer div {
+        width: 210px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    #footer .footerhorarios11 h6 {
+        margin-left: 0px;
+    }
+    #footer .footerubicacion11 h6 {
+        margin-left: 20px;
+    }
+    #footer .footercontacto11 h6 {
+        margin-left: 0px;
+    }
+    #footer .footerRedes {
+        margin-left: 0;  
+        margin-top: 0; 
+    }
+} 

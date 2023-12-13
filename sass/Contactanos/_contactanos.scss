@@ -1,0 +1,121 @@
+.formulariocontacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactotelefonogmail, .formulario {
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.contactotelefonogmail {
+    float: left;
+}
+
+.formulario {
+    float: right;
+}
+
+#inputtext {
+    width: 550px;
+    height: 25px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+#inputcorreo {
+    width: 550px;
+    height: 25px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+#inputmensaje {
+    width: 550px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+#inputtelefono {
+    width: 550px;
+    height: 25px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius:5px;
+}
+.formulariocontacto {
+    font-family: 'Sora', sans-serif;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.formbotonformulario {
+    padding: 10px;
+    margin-left: 100px;
+    width: 500px;
+}
+.botonformulario {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+    border: none;
+    border-radius: 15px;
+    background-color: #0084e4;
+    color: white;
+    width: 150px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.botonformulario:hover {
+    color: rgb(184, 184, 184);
+}
+
+
+.tamañocontacto {
+    font-size: 18px;
+}
+
+.tamañogmail {
+    font-size: 12px;
+}
+
+.tamañohorario {
+    font-size: 15px;
+}
+
+
+
+#post-bannercontactanos {
+    margin-top: 1000px;
+    display: flex;
+}
+
+#post-bannercontactanos div {
+    width: 500px;
+    margin-left: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+#post-bannercontactanos .contactotelefonogmail h5 {
+    text-align: center;
+    font-size: 23px;
+
+    
+}
+
+#post-bannercontactanos .contactotelefonogmail h3 {
+    color: red;
+}
+
+#post-bannercontactanos .contactotelefonogmail img {
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.titulobannercontactanos {
+    font-size: 110px;
+}

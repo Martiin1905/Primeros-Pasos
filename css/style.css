@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/*   HEADER   */
 #header {
   width: 100%;
   height: 30px;
@@ -124,8 +123,6 @@ header div {
   color: rgb(178, 178, 178);
 }
 
-/*    CONTENIDO DE LA PAGINA    */
-/* BANNER */
 #banner {
   position: relative;
 }
@@ -373,42 +370,6 @@ main {
     margin-top: 0;
   }
 }
-@media (max-width: 768px) {
-  .checkbtn {
-    display: block;
-  }
-  .menu-icon {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-  }
-  .nav-menu ul {
-    display: block;
-    position: fixed;
-    top: 70px;
-    left: -100%;
-    background: #222;
-    width: 100%;
-    height: 100vh;
-    right: 0;
-  }
-  .nav-menu ul li {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-  .nav-menu ul li:last-child {
-    background: none;
-    padding: 1rem;
-  }
-  #check:checked ~ ul {
-    left: 0;
-    transition: all 0.25s;
-  }
-}
 /*   SERVICIOS   */
 .titulobannerservicios h1 {
   text-align: center;
@@ -484,76 +445,6 @@ main {
     margin-left: 335px;
   }
 }
-/*    NOSOTROS    */
-.titulobannernosotros {
-  position: absolute;
-}
-
-.titulobannernosotros h1 {
-  font-size: 80px;
-  margin-top: 170px;
-  margin-left: 600px;
-}
-
-.visionmisionvalores {
-  display: flex;
-  justify-content: center;
-  height: 540px;
-  margin-top: 160px;
-  background-color: #0084e4;
-  margin-bottom: 90px;
-  margin-right: 40px;
-  margin-left: 40px;
-  border-radius: 55px;
-}
-
-.visionmisionvalores .divmision {
-  height: 400px;
-  width: 250px;
-  justify-content: center;
-  text-align: center;
-  margin-top: 70px;
-}
-
-.visionmisionvalores .divvalores {
-  height: 400px;
-  width: 250px;
-  justify-content: right;
-  margin-top: 70px;
-}
-
-.visionmisionvalores .divvision {
-  height: 400px;
-  width: 250px;
-  margin-top: 70px;
-}
-
-.visionmisionvalores div {
-  margin-left: 120px;
-  margin-right: 120px;
-  background-color: white;
-  justify-content: center;
-  text-align: center;
-  border-radius: 20px;
-}
-
-.visionmisionvalores div h5 {
-  font-size: 45px;
-}
-
-.visionmisionvalores div h6 {
-  font-size: 23px;
-  margin: 15px;
-}
-
-.textopostimgnosotros {
-  font-family: "Catamaran", sans-serif;
-  font-size: 35px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-/*    UBICACION    */
 .sectionubicacion {
   display: flex;
 }
@@ -597,7 +488,6 @@ main {
   min-height: 100vh;
 }
 
-/*    CONTACTANOS    */
 .formulariocontacto {
   display: flex;
   flex-direction: column;
@@ -721,5 +611,257 @@ main {
 .titulobannercontactanos {
   font-size: 110px;
 }
+
+@media (max-width: 850px) {
+  #post-bannercontactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #post-bannercontactanos .contactotelefonogmail div h5 {
+    width: 800px;
+    margin-left: 0px;
+    margin-top: -200px;
+    font-size: 40px;
+  }
+  #post-bannercontactanos .contactotelefonogmail div img {
+    width: 120px;
+    margin-right: -290px;
+  }
+  #post-bannercontactanos .contactotelefonogmail div h3 {
+    font-size: 50px;
+    margin-right: -290px;
+  }
+  #post-bannercontactanos .contactotelefonogmail div h4 {
+    font-size: 35px;
+    margin-right: -290px;
+  }
+  #post-bannercontactanos .formulario {
+    height: 1500px;
+  }
+  #post-bannercontactanos .formulario .formulariocontacto {
+    width: 1000px;
+    font-size: 45px;
+    text-align: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-left: -80px;
+  }
+  #post-bannercontactanos .botonformulario {
+    width: 570px;
+    font-size: 40px;
+    margin-left: 0;
+  }
+  #post-bannercontactanos .formulario .formulariocontacto label input {
+    height: 50px;
+    width: 900px;
+  }
+  #post-bannercontactanos .formulario .formulariocontacto label textarea {
+    width: 900px;
+  }
+  #footer {
+    height: 300px;
+    margin-bottom: 0;
+  }
+  /*
+  #footer .footerHorarios .footerhorarios11 {
+      display: none;
+  }
+  #footer .footerHorarios .footercontacto11 {
+      display: none;
+  }
+  #footer .footerHorarios .footerubicacion11 {
+      display: none;
+  }
+  */
+  #footer {
+    height: 900px;
+  }
+  #footer .footerHorarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #footer .footerHorarios .footerRedes {
+    width: 1000px;
+  }
+  #footer .footerHorarios .footerhorarios11 h5 {
+    display: none;
+  }
+  #footer .footerHorarios .footerubicacion11 h5 {
+    display: none;
+  }
+  #footer .footerHorarios div img {
+    width: 120px;
+    margin-left: -90px;
+  }
+  #footer .footerHorarios div h6 {
+    width: 730px;
+    font-size: 35px;
+    margin-left: -290px;
+  }
+  #footer .footerHorarios div h5 {
+    width: 730px;
+    font-size: 35px;
+    margin-left: -300px;
+  }
+  #footer .footerHorarios .footerRedes img {
+    margin-left: 80px;
+    width: 150px;
+  }
+  #footer .footerHorarios .footerRedes {
+    margin-top: 20px;
+    margin-left: -90px;
+  }
+}
+@media (max-width: 1300px) {
+  #post-bannercontactanos .formulario {
+    margin-left: 150px;
+  }
+}
+.titulobannernosotros {
+  position: absolute;
+}
+
+.titulobannernosotros h1 {
+  font-size: 80px;
+  margin-top: 170px;
+  margin-left: 600px;
+}
+
+.visionmisionvalores {
+  display: flex;
+  justify-content: center;
+  height: 540px;
+  margin-top: 160px;
+  background-color: #0084e4;
+  margin-bottom: 90px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 55px;
+}
+
+.visionmisionvalores .divmision {
+  height: 400px;
+  width: 250px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.visionmisionvalores .divvalores {
+  height: 400px;
+  width: 250px;
+  justify-content: right;
+  margin-top: 70px;
+}
+
+.visionmisionvalores .divvision {
+  height: 400px;
+  width: 250px;
+  margin-top: 70px;
+}
+
+.visionmisionvalores div {
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.visionmisionvalores div h5 {
+  font-size: 45px;
+}
+
+.visionmisionvalores div h6 {
+  font-size: 23px;
+  margin: 15px;
+}
+
+.textopostimgnosotros {
+  font-family: "Catamaran", sans-serif;
+  font-size: 35px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media (max-width: 1250px) {
+  #post-banner .titutlopostbanner {
+    font-size: 80px;
+  }
+  #post-banner .textopostimgnosotros {
+    width: 1100px;
+    font-size: 50px;
+  }
+  .visionmisionvalores {
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .visionmisionvalores .divvision {
+    width: 950px;
+    height: 300px;
+  }
+  .visionmisionvalores .divmision {
+    width: 950px;
+    height: 300px;
+  }
+  .visionmisionvalores .divvalores {
+    width: 950px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .visionmisionvalores .divmision h5 {
+    font-size: 65px;
+  }
+  .visionmisionvalores .divvision h5 {
+    font-size: 65px;
+  }
+  .visionmisionvalores .divvalores h5 {
+    font-size: 65px;
+  }
+  .visionmisionvalores .divmision h6 {
+    font-size: 30px;
+  }
+  .visionmisionvalores .divvision h6 {
+    font-size: 30px;
+  }
+  .visionmisionvalores .divvalores h6 {
+    font-size: 30px;
+  }
+  .visionmisionvalores .divmision img {
+    width: 100px;
+    margin-top: 5px;
+  }
+}
+/*
+@media (max-width: 1250px) {
+    .textopostimgnosotros {
+        width: 1100px;
+        font-size: 40px;
+    }
+    .visionmisionvalores {
+        width: 1200px;
+        height: 550px;
+    }
+    .visionmisionvalores .divmision {
+        width: 290px;
+        margin-left: 0;
+    }
+    .visionmisionvalores .divvision {
+        width: 290px;
+        margin-left: 0;
+    }
+    .visionmisionvalores .divvalores {
+        width: 290px;
+        margin-left: 0;
+        margin-right: -15px;
+    }
+}
+*/
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+@media (max-width: 1250px) {
+    #post-banner .titutlopostbanner {
+        font-size: 80px;
+    }
+    #post-banner .textopostimgnosotros {
+        width: 1100px;
+        font-size: 50px;
+    }
+    .visionmisionvalores {
+        width: 1200px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .visionmisionvalores .divvision {
+        width: 950px;
+        height: 300px;
+    }
+    .visionmisionvalores .divmision {
+        width: 950px;
+        height: 300px;
+    }
+    .visionmisionvalores .divvalores {
+        width: 950px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .visionmisionvalores .divmision h5 {
+        font-size: 65px;
+    }
+    .visionmisionvalores .divvision h5 {
+        font-size: 65px;
+    }
+    .visionmisionvalores .divvalores h5 {
+        font-size: 65px;
+    }
+    .visionmisionvalores .divmision h6 {
+        font-size: 30px;
+    }
+    .visionmisionvalores .divvision h6 {
+        font-size: 30px;
+    }
+    .visionmisionvalores .divvalores h6 {
+        font-size: 30px;
+    }
+    .visionmisionvalores .divmision img {
+        width: 100px;
+        margin-top: 5px;
+    }
+}
+/*
+@media (max-width: 1250px) {
+    .textopostimgnosotros {
+        width: 1100px;
+        font-size: 40px;
+    }
+    .visionmisionvalores {
+        width: 1200px;
+        height: 550px;
+    }
+    .visionmisionvalores .divmision {
+        width: 290px;
+        margin-left: 0;
+    }
+    .visionmisionvalores .divvision {
+        width: 290px;
+        margin-left: 0;
+    }
+    .visionmisionvalores .divvalores {
+        width: 290px;
+        margin-left: 0;
+        margin-right: -15px;
+    }
+}
+*/

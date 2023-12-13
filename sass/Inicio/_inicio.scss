@@ -1,0 +1,375 @@
+#header {
+    width: 100%;
+    height: 30px;
+    background-color: #1f98f0ff;
+    display: flex;
+    position: fixed;   
+    z-index: 101;
+}
+
+
+#header .miniheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#header .miniheader h5 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#header .miniheader .logocelularheader {
+    height: 27px;
+}
+
+
+#header div {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header div{
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+.logo-header img{
+    width: 50px;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1rem;
+}
+.nav-menu a{
+    color: #fff;
+}
+.nav-menu li:last-child{
+    background:#4ad295;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+.menu-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+.menu-icon, #check{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BARRA DE NAVEGACION */
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    background-color: #0084e4;
+    margin-top: 30px;
+    z-index: 100;
+}
+
+#navbar img {
+    width: 120px;
+    object-fit: contain;
+    margin-left: 50px;
+}
+
+#navbar .linksprincipales {
+    width: 1400px;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+
+#navbar a:hover {
+    color: rgb(178, 178, 178);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#banner {
+    position: relative;
+}
+
+
+main #banner img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 80px;
+}
+
+.contenidobanner .titulobanner {
+    text-align: center;
+}
+
+
+main #banner .titulobanner h1 {
+    font-size: 70px;
+    position: absolute;
+    width: 550px;
+    margin-top: 180px;
+    margin-left: 300px;
+
+}
+
+
+
+.botonbanner {
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 458px;
+    width: 250px;
+    height: 60px;
+    background-color: #1F98F0;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+
+.botonbanner a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 500;
+    
+}
+
+
+.botonbanner a:hover {
+    color: rgb(178, 178, 178);
+}
+
+
+
+
+
+main {
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+
+/*   CONTENIDO POST-BANNER   */
+
+
+
+#post-banner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1000px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.titutlopostbanner {
+    font-size: 56px;
+    text-align: center;
+    color: #0084e4;
+    margin-bottom: 80px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+
+
+.fotovieja {
+    object-fit: contain;
+    width: 1500px;
+    height: 500px;
+    text-align: center;
+}
+
+
+.textopostimg {
+    background-color: rgb(243, 243, 243);
+    margin-top: 60px;
+    width: 1200px;
+    height: 400px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 160px;
+    border-radius: 50px;
+    padding: 25px;
+    margin-bottom: 90px;
+}
+
+
+/*    PIE DE PAGINA (FOOTER)    */
+
+#footer {
+    display: flex;
+    background-color: #0084e4;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer .footerHorarios {
+    display: flex;
+}
+
+.footerHorarios div {
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    margin-top: 10px;  
+    margin-left: 60px;
+}
+
+
+
+
+.footerHorarios .footerhorarios11 img {
+    width: 50px;
+}
+.footerHorarios .footerhorarios11 h5 {
+    font-size: 18px;
+    color: black;
+}
+.footerHorarios .footerhorarios11 h6 {
+    width: 170px;
+    font-size: 18px;
+    color: black;
+    margin-left: 63px;
+}
+
+
+
+
+
+.footerHorarios .footerubicacion11 {
+    margin-top: 20px;
+}
+.footerHorarios .footerubicacion11 img {
+    width: 48px;
+}
+.footerHorarios .footerubicacion11 h5 {
+    font-size: 18px;
+    color: black;
+}
+.footerHorarios .footerubicacion11 h6 {
+    width: 170px;
+    font-size: 18px;
+    color: black;
+    margin-left: 63px;
+}
+
+
+
+
+
+
+.footerHorarios .footercontacto11 {
+    margin-top: 24px;
+}
+.footerHorarios .footercontacto11 img {
+    width: 43px;
+}
+.footerHorarios .footercontacto11 h5 {
+    margin-top: 3px;
+    font-size: 18px;
+    color: black;
+}
+.footerHorarios .footercontacto11 h6 {
+    width: 170px;
+    font-size: 18px;
+    color: black;
+    margin-left: 63px;
+}
+
+
+
+
+
+.footerHorarios .footerRedes img {
+    color: black;
+    object-fit: contain;
+    width: 70px;
+    justify-content: center;
+    margin-top: 32px;
+}

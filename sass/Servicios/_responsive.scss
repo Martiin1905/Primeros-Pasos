@@ -1,0 +1,29 @@
+/*   RESPONSIVE  SERVICIOS  */
+
+@media (max-width: 1280px) {
+    .titulobannerservicios h1 {
+        margin-left: 100px;;
+    }
+    #post-bannerservicios img {
+        width: 700px;
+        margin-left: 300px;
+    }
+
+    #post-bannerservicios h3 {
+        text-align: center;
+        justify-content: center;
+        width: 1000px;
+        margin-left: 135px;
+    }
+    #post-bannerservicios .nuestros_servicios h4 {
+        width: 600px;
+        margin-left: 350px;  
+    }
+    #post-bannerservicios .nuestros_servicios ul li {
+        font-size: 30px;
+    }
+    #post-bannerservicios .nuestros_servicios ul {
+        width: 600px;
+        margin-left: 335px;
+    }
+}

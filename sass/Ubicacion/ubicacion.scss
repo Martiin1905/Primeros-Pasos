@@ -1,0 +1,40 @@
+.sectionubicacion {
+    display: flex;
+}
+.sectionubicacion .maps {
+    width: 550px;
+    height: 550px;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.sectionubicacion .maps iframe {
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.sectionubicacion .derechamaps {
+    width: 550px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sectionubicacion .derechamaps h4 {
+    font-size: 35px;
+    font-weight: 1000;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.subtitulocambiar {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 90px;
+}
+ main {
+    min-height: 100vh;
+ }
