@@ -488,6 +488,37 @@ main {
   min-height: 100vh;
 }
 
+@media (max-width: 1000px) {
+  #post-banner .textopostimg {
+    font-size: 40px;
+  }
+  #post-banner h4 {
+    font-size: 70px;
+    width: 1000px;
+    margin-left: 90px;
+  }
+  .sectionubicacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionubicacion .maps iframe {
+    width: 800px;
+    height: 600px;
+    margin-left: 150px;
+    margin-right: 0;
+  }
+  .sectionubicacion .derechamaps div {
+    width: 800px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .sectionubicacion .derechamaps div h4 {
+    width: 600px;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+}
 .formulariocontacto {
   display: flex;
   flex-direction: column;
