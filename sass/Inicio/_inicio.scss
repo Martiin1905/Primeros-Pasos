@@ -52,7 +52,7 @@ header div{
     padding: .5rem 2rem;
 }
 .logo-header img{
-    width: 50px;
+    width: 50vh;
 }
 .nav-menu ul{
     display: flex;
@@ -70,7 +70,7 @@ header div{
     border-radius: .2rem;
 }
 .menu-icon img{
-    width: 30px;
+    width: 30vh;
     height: 30px;
     border-radius: 2px;
 }
@@ -106,13 +106,13 @@ header div{
 }
 
 #navbar img {
-    width: 120px;
+    width: 30vh;
     object-fit: contain;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 #navbar .linksprincipales {
-    width: 1400px;
+    width: 1400vh;
     height: 90px;
     justify-content: center;
     text-align: center;
@@ -185,9 +185,9 @@ main #banner img {
 main #banner .titulobanner h1 {
     font-size: 70px;
     position: absolute;
-    width: 550px;
+    width: 130vh;
     margin-top: 180px;
-    margin-left: 300px;
+    margin-left: 80px;
 
 }
 
@@ -196,8 +196,8 @@ main #banner .titulobanner h1 {
 .botonbanner {
     position: absolute;
     margin-top: 540px;
-    margin-left: 458px;
-    width: 250px;
+    margin-left: 420px;
+    width: 35vh;
     height: 60px;
     background-color: #1F98F0;
     text-align: center;
@@ -262,9 +262,11 @@ main {
 
 .fotovieja {
     object-fit: contain;
-    width: 1500px;
+    width: 150vh;
     height: 500px;
     text-align: center;
+    justify-content: center;
+    margin-left: 200px;
 }
 
 
